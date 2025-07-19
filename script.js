@@ -47,6 +47,9 @@ const quotes = [
   }
 ];
 
+
+// function ahead
+
 function getRandomQuote() {
   let randomIndex = Math.floor(Math.random() * quotes.length);
   return quotes[randomIndex];
